@@ -1,11 +1,11 @@
 ---
-opening hours: all day
+opening_hours: all day
 position: 1
 acccess: public
-how to find: behind Sign
+how_to_find: behind Sign
 babytable: 2
-accessable for disabled: false
-shop or vending machine: false
+accessable_for_disabled: false
+shop_or_vending_machine: false
 
 ---
 
