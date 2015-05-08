@@ -1,21 +1,25 @@
 ---
-opening_hours: all day
+hours: all day
 position: 1
 acccess: public
-how_to_find: behind Sign
-babytable: 2
-accessable_for_disabled: false
-shop_or_vending_machine: false
+where: behind Sign
+babytable: true
+accessible: false
+goods: false
 
 ---
 
 # {Toiletname}
 ## History
 
+|Date|hours|position|acccess|where|babytable|accessible|goods|
+|----|--------|--------|-------|----------------|---------|-----------------------|-----------------------|
+|1970-01-02-00:00|all day|1|public|behind Sign|true|false|false|
+|1970-01-01-13:23 |all day|1|public|behind Sign|false|false|false|
 
 ## Datatypes
 
-### opening_hours: 
+### hours: 
 {all_day|{[mo|tue|wed|thu|fri|sat|sun]hhmm}*}
 
 ### position: 
@@ -24,14 +28,14 @@ shop_or_vending_machine: false
 ### acccess 
 {free|paid|customer|code|public}
 
-### how_to_find: 
+### where: 
 [behind|nextTo|insideOf][name]
 
 ### babytable: 
 [true|false]
 
-### accessable_for_disabled: 
+### accessible: 
 [true|false]
 
-### shop_vending_machine: 
-[true|false]
+### goods: 
+[false|{list,of,goods}]
