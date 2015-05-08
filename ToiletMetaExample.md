@@ -1,7 +1,7 @@
 ---
 opening hours: all day
 position: 1
-acccess public
+acccess: public
 how to find: behind Sign
 babytable: 2
 accessable for disabled: false
