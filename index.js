@@ -15,7 +15,7 @@ app.get('/', function(request, response) {
 });
 
 app.post('/toilet/:id/', function (request, response) {
-  response.send(JSON.stringify(request));
+  response.send('thank you');
 })
 
 app.listen(app.get('port'), function() {
