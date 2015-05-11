@@ -1,41 +1,38 @@
 ---
-hours: all day
-position: 1
-acccess: public
-where: behind Sign
-babytable: true
-accessible: false
-goods: false
+postcode: 13359
+city: Berlin
+country: DE
+area: Wedding
+lastUpdate: 2015-05-11-20:23
 
 ---
 
-# {Toiletname}
-## History
+# Toilets
 
-|Date|hours|position|acccess|where|babytable|accessible|goods|
-|----|--------|--------|-------|----------------|---------|-----------------------|-----------------------|
-|1970-01-02-00:00|all day|1|public|behind Sign|true|false|false|
-|1970-01-01-13:23 |all day|1|public|behind Sign|false|false|false|
+|Date|name|hours|position|acccess|where|babytable|accessible|goods|
+|----|----|-----|--------|-------|-----|---------|----------|-----|
+|1970-01-02-00:00||all day|1|public|behind Sign|true|false|false|
+|1970-01-01-13:23||all day|1|public|behind Sign|false|false|false|
 
-## Datatypes
+# Datatypes
 
-### hours: 
+## hours: 
 {all_day|{[mo|tue|wed|thu|fri|sat|sun]hhmm}*}
 
-### position: 
+## position: 
 {geo_location}
 
-### acccess 
+## acccess 
 {free|paid|customer|code|public}
 
-### where: 
+## where: 
 [behind|nextTo|insideOf][name]
 
-### babytable: 
+## babytable: 
 [true|false]
 
-### accessible: 
+## accessible: 
 [true|false]
 
-### goods: 
+## goods: 
 [false|{list,of,goods}]
